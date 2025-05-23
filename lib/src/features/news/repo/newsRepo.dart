@@ -3,12 +3,15 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:math' as math;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 
 import '../../../modals/articleModal.dart';
 
 class NewsRepository {
-  static const _apiKey = 'b84964302c9549eebb1e2d08d17e6cd5';
+  // static const _apiKey = 'b84964302c9549eebb1e2d08d17e6cd5';
+  final _apiKey = dotenv.env['API_KEY'];
+
   static const _baseUrl = 'https://newsapi.org/v2';
 
   final List<String> _categories = [
