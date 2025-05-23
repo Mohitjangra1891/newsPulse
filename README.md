@@ -1,5 +1,8 @@
 
 # 📰 NewsPulse - Flutter News App
+> 📧 **Demo Login Credentials**  
+> Email: `mohit@gmail.com`  
+> Password: `password`
 
 NewsPulse is a clean and modern Flutter news application that fetches real-time articles from [NewsAPI.org](https://newsapi.org). It supports **dark mode**, **bookmarks**, and **search functionality**, offering users a smooth and personalized reading experience.
 
@@ -44,13 +47,53 @@ NewsPulse is a clean and modern Flutter news application that fetches real-time 
 ```
 ## APK LINK
 https://drive.google.com/file/d/1bV99G9UdPaW8KnJyZTo6G_CdxldbJyVY/view?usp=drivesdk
-
 ## Screenshots
 
-| Screen        | Light Theme                                  | Dark Theme                                  |
-|---------------|----------------------------------------------|---------------------------------------------|
-| Home Page     | ![Home Light](https://github.com/user-attachments/assets/2d942691-2fe9-42c9-8828-6d3597c97e13) | ![Home Dark](https://github.com/user-attachments/assets/2d942691-2fe9-42c9-8828-6d3597c97e13) |
-| Search Page   | ![Search Light](https://github.com/user-attachments/assets/2d942691-2fe9-42c9-8828-6d3597c97e13) | ![Search Dark](https://github.com/user-attachments/assets/2d942691-2fe9-42c9-8828-6d3597c97e13)|
+<table>
+  <tr>
+    <th>Screen</th>
+    <th>Light Theme</th>
+    <th>Dark Theme</th>
+  </tr>
+    <tr>
+    <td>Login Page</td>
+    <td><img src="assets/ss/light_login.jpg" width="200"/></td>
+    <td><img src="assets/ss/dark_login.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td>Home Page</td>
+    <td><img src="assets/ss/light_home.jpg" width="200"/></td>
+    <td><img src="assets/ss/dark_home.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td>Search Page</td>
+    <td><img src="assets/ss/light_search.jpg" width="200"/></td>
+    <td><img src="assets/ss/dark_search.jpg" width="200"/></td>
+  </tr>
+  <tr>
+    <td>Bookmark Page</td>
+    <td><img src="assets/ss/light_bookmark.jpg" width="200"/></td>
+    <td><img src="assets/ss/dark_bookmark.jpg" width="200"/></td>
+  </tr>
+   <!-- Single Version Screens -->
+<br/>
+
+<table>
+  <tr>
+    <th>WebView Article 1</th>
+    <th>WebView Article 2</th>
+    <th>Drawer</th>
+    <th>No BookMark</th>
+  </tr>
+  <tr>
+    <td><img src="assets/ss/webview_1.jpg" width="200"/></td>
+    <td><img src="assets/ss/webview_2.jpg" width="200"/></td>
+    <td><img src="assets/ss/drawer.jpg" width="200"/></td>
+    <td><img src="assets/ss/no_bookmark.jpg" width="200"/></td>
+
+  </tr>
+</table>
+
 ## Architecture Choices
 
 - The app uses a modular folder structure. Features like news, auth, and bookmarks are separated into their own folders under `lib/src/features`.
